@@ -24,7 +24,7 @@ import {
 } from '@/components/ui/card'
 
 type ProfileFormProps = {
-  defaultValues: Session['user']
+  defaultValues?: Session['user']
 }
 
 export function ProfileForm({ defaultValues }: ProfileFormProps) {
